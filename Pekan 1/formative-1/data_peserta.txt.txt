@@ -1,0 +1,11 @@
+Data Peserta Bootcamp Digital Skill - Golang Backend Development
+1. Nama : Irfan Ambari
+2. Email: irfanambari19@gmail.com
+3. Sistem Operasi yang digunakan : Windows
+4. Akun GitHub :Irfaan97code
+5. Akun Telegram : Irfan A
+6. Role Pekerjaan (BE/FE/DEVOPS/MAHASISWA) :wiraswasta
+7. Umur : 27 tahun
+8. Pernah menggunakan Go? : Belum pernah
+9. Bahasa pemrograman yang pernah dipelajari: ReactJs
+10. Pernah membuat REST API? : Belum pernah
