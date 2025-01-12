@@ -7,7 +7,6 @@ import (
 
 func main() {
 	//soal 1
-	// Variabel dengan tipe string
 	var panjangPersegiPanjang string = "8"
 	var lebarPersegiPanjang string = "5"
 	var alasSegitiga string = "6"
@@ -45,8 +44,6 @@ func main() {
 			return "E"
 		}
 	}
-
-	// Menentukan indeks nilai untuk John dan Doe
 	indeksJohn := determineIndex(nilaiJohn)
 	indeksDoe := determineIndex(nilaiDoe)
 
