@@ -39,36 +39,19 @@ func main() {
 	fmt.Println(str, strA, strB, strC)
 
 	//soal 4
-	var angkaPertama = "8"
-	var num, err = strconv.Atoi(angkaPertama)
+	// variabel
+	var angkaPertama string = "8"
+	var angkaKedua string = "5"
+	var angkaKetiga string = "6"
+	var angkaKeempat string = "7"
 
-	if err == nil {
-		fmt.Println(num)
-	}
+	numA, _ := strconv.Atoi(angkaPertama)
+	numB, _ := strconv.Atoi(angkaKedua)
+	numC, _ := strconv.Atoi(angkaKetiga)
+	numD, _ := strconv.Atoi(angkaKeempat)
 
-	var angkaKedua = "5"
-	var numA, errA = strconv.Atoi(angkaKedua)
-
-	if errA == nil {
-		fmt.Println(numA)
-	}
-
-	var angkaKetiga = "6"
-	var numB, errB = strconv.Atoi(angkaKetiga)
-
-	if errB == nil {
-		fmt.Println(numB)
-	}
-
-	var angkaKeempat = "7"
-	var numC, errC = strconv.Atoi(angkaKeempat)
-
-	if errC == nil {
-		fmt.Println(numC)
-	}
-
-	jumlah := num + numA + numB + numC
-	fmt.Println(jumlah)
+	var jumlah = (numA + numB + numC + numD)
+	fmt.Println("jumlah keseluruhan", jumlah)
 
 	//soal 5
 	kalimat := `"halo halo bandung"`
